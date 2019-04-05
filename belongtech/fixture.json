@@ -1,0 +1,154 @@
+[
+{
+    "model": "todolist.category",
+    "pk": 6,
+    "fields": {
+        "name": "Other"
+    }
+},
+{
+    "model": "todolist.category",
+    "pk": 3,
+    "fields": {
+        "name": "Personal"
+    }
+},
+{
+    "model": "todolist.category",
+    "pk": 2,
+    "fields": {
+        "name": "Work"
+    }
+},
+{
+    "model": "todolist.category",
+    "pk": 1,
+    "fields": {
+        "name": "General"
+    }
+},
+{
+    "model": "todolist.category",
+    "pk": 4,
+    "fields": {
+        "name": "School"
+    }
+},
+{
+    "model": "todolist.category",
+    "pk": 5,
+    "fields": {
+        "name": "Cleaning"
+    }
+},
+{
+    "model": "todolist.todolist",
+    "pk": 15,
+    "fields": {
+        "title": "Assignment@belong",
+        "content": "",
+        "created": "2019-01-02",
+        "due_date": "2019-01-07",
+        "category": 2
+    }
+},
+{
+    "model": "todolist.todolist",
+    "pk": 12,
+    "fields": {
+        "title": "Swimming",
+        "content": "",
+        "created": "2019-01-05",
+        "due_date": "2019-01-16",
+        "category": 3
+    }
+},
+{
+    "model": "todolist.todolist",
+    "pk": 17,
+    "fields": {
+        "title": "Treat friends",
+        "content": "",
+        "created": "2019-01-09",
+        "due_date": "2019-01-13",
+        "category": 6
+    }
+},
+{
+    "model": "todolist.todolist",
+    "pk": 13,
+    "fields": {
+        "title": "Guitar Class",
+        "content": "",
+        "created": "2019-01-12",
+        "due_date": "2019-01-23",
+        "category": 3
+    }
+},
+{
+    "model": "todolist.todolist",
+    "pk": 16,
+    "fields": {
+        "title": "Organizing Room",
+        "content": "",
+        "created": "2019-01-13",
+        "due_date": "2019-01-13",
+        "category": 5
+    }
+},
+{
+    "model": "todolist.todolist",
+    "pk": 11,
+    "fields": {
+        "title": "Hello@akshay",
+        "content": "Hello@akshay -- 2019-01-15 Work",
+        "created": "2019-01-13",
+        "due_date": "2019-01-15",
+        "category": 2
+    }
+},
+{
+    "model": "todolist.todolist",
+    "pk": 19,
+    "fields": {
+        "title": "Tatasky Bill Payment",
+        "content": "",
+        "created": "2019-01-14",
+        "due_date": "2019-01-14",
+        "category": 1
+    }
+},
+{
+    "model": "todolist.todolist",
+    "pk": 18,
+    "fields": {
+        "title": "Buying Groceries",
+        "content": "",
+        "created": "2019-01-14",
+        "due_date": "2019-01-14",
+        "category": 1
+    }
+},
+{
+    "model": "todolist.todolist",
+    "pk": 14,
+    "fields": {
+        "title": "Megento Assignment",
+        "content": "",
+        "created": "2019-01-15",
+        "due_date": "2019-01-25",
+        "category": 4
+    }
+},
+{
+    "model": "todolist.todolist",
+    "pk": 20,
+    "fields": {
+        "title": "cleaning",
+        "content": "cleaning -- 2026-03-30 Cleaning",
+        "created": "2019-02-21",
+        "due_date": "2026-03-30",
+        "category": 5
+    }
+}
+]

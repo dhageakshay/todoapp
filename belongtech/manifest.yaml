@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: belongtech
+  namespace: default
+spec:
+  containers:
+  - name: belong
+    image: dhageakshay/belongtech:web
+    command:
+      - sleep
+      - "3600"
+  - name: belongtech
+    image: dhageakshay/belongtech:db
+    command:
+      - sleep
+      - "3600"
+    imagePullPolicy: IfNotPresent
+  restartPolicy: Always
